@@ -1,0 +1,13 @@
+ul {
+    text-align: center;
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        margin: 0;
+    }
+}

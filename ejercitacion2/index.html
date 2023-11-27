@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="./public/favicon.png" type="image/x-icon" />
+        <title>Calculadora Básica</title>
+        <script type="module" src="script.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <label for="num__input">OPERANDOS</label>
+            <div class="num__container">
+                <input id="num1__input" class="num__input" type="number" />
+                <input id="num2__input" class="num__input" type="number" />
+            </div>
+            <div class="oper__container">
+                <button id="oper_suma" class="oper__button" type="button">SUMA</button>
+                <button id="oper_resta" class="oper__button" type="button">RESTA</button>
+                <button id="oper_multiplicacion" class="oper__button" type="button">MULTIPLICACION</button>
+                <button id="oper_division" class="oper__button" type="button">DIVISION</button>
+            </div>
+            <div class="result__container">
+                <label id="result__operacion" class="result__operacion"></label>
+            </div>
+            <label class="result__label">RESULTADO</label>
+        </main>
+    </body>
+</html>

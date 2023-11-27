@@ -1,0 +1,48 @@
+.TaskItem {
+    border: 3px solid #fff;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.TaskItem .TaskItem-p-completed {
+    text-decoration: line-through;
+}
+
+.button-task {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 40px;
+    transition: 0.5s ease;
+}
+
+.button-task-delete:hover {
+    color: #ff0000;
+}
+
+.button-task-completed:hover {
+    color: #008000;
+}
+
+@media (max-width: 1024px) {
+    .button-task {
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-task {
+        margin: 10px 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .TaskItem {
+        width: 90%;
+    }
+
+    .button-task {
+        margin: 5px 5px;
+    }
+}
